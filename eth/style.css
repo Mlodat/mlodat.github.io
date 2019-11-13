@@ -1,0 +1,33 @@
+div {
+    padding: 10px;
+}
+
+#param1 {
+    color: red;
+    font-weight: bold;
+}
+
+#param2 {
+    color: green;
+    font-weight: bold;
+}
+
+#param3 {
+    color: blue;
+    font-weight: bold;
+}
+
+input {
+    margin: 20px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+}
