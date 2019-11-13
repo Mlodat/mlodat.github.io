@@ -1,13 +1,14 @@
 const request = new XMLHttpRequest();
 //const url = 'http://127.0.0.1/test/';
-const url = 'http://192.168.1.11/';
+//const url = 'http://192.168.1.11/';
 request.open('GET', url);
 request.send();
 
 request.onreadystatechange = (e) => {
 	let params = request.responseText.split(',');
 	
-	let param1 = params[0];
+	//let param1 = params[0];
+	let param1 = 15;
 	let param2 = params[1];
 	let param3 = params[2];
 
@@ -24,7 +25,5 @@ function createRequest() {
 	//let customUrl = url + 'index.php?somevar=' + customParam;
 	let customUrl = url + customParam;
 	request.open('GET', customUrl);
-	//request.open(customParam);
-	//request.open('GET', customParam);
 	request.send();
 }
