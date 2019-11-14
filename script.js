@@ -6,7 +6,7 @@ request.open('GET', url);
 request.send();
 
 request.onreadystatechange = (e) => {
-	let params = request.responseText.split(',');
+	//let params = request.responseText.split(',');
 	
 	//let param1 = params[0];
 	let param1 = a;
