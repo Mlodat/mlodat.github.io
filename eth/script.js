@@ -14,7 +14,7 @@ request.onreadystatechange = (e) => {
 	let param3 = params[2];
 
 	elemParam1 = document.getElementById('param1');
-	elemParam1.innerHTML = param1;
+	elemParam1.innerHTML = 16;
 	elemParam2 = document.getElementById('param2');
 	elemParam2.innerHTML = param2;
 	elemParam3 = document.getElementById('param3');
