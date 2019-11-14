@@ -1,6 +1,7 @@
 const request = new XMLHttpRequest();
 //const url = 'http://127.0.0.1/test/';
 //const url = 'http://192.168.1.11/';
+const a = '15';
 request.open('GET', url);
 request.send();
 
@@ -8,7 +9,7 @@ request.onreadystatechange = (e) => {
 	let params = request.responseText.split(',');
 	
 	//let param1 = params[0];
-	let param1 = '15';
+	let param1 = a;
 	let param2 = params[1];
 	let param3 = params[2];
 
