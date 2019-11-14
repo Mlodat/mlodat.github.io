@@ -8,7 +8,7 @@ request.onreadystatechange = (e) => {
 	let params = request.responseText.split(',');
 	
 	//let param1 = params[0];
-	let param1 = 15;
+	let param1 = '15';
 	let param2 = params[1];
 	let param3 = params[2];
 
