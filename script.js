@@ -10,9 +10,12 @@ request.onreadystatechange = (e) => {
 	
 	//let param1 = params[0];
 	let param1 = a;
-	let param2 = params[1];
-	let param3 = params[2];
-
+	//let param2 = params[1];
+	//let param3 = params[2];
+	let param2 = 17;
+	let param3 = 18;
+	
+	
 	elemParam1 = document.getElementById('param1');
 	elemParam1.innerHTML = 16;
 	elemParam2 = document.getElementById('param2');
